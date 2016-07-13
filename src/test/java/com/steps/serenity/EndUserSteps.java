@@ -14,7 +14,7 @@ public class EndUserSteps extends ScenarioSteps {
 
     @Step
     public void enters(String keyword) {
-        dictionaryPage.enter_keywords(keyword);
+        dictionaryPage.enter_keywords_modified_from_local_repository(keyword);
     }
 
     @Step
